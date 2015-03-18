@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CommandListViewController.h
 //  CommandList
 //
 //  Created by Sergio Perez on 3/18/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface CommandListViewController : UIViewController
 
 @end
-
