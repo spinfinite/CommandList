@@ -10,6 +10,8 @@
 
 @interface CommandListViewController ()
 
+@property (nonatomic, strong) UITableView *tableView; // instantiates a table view
+
 @end
 
 @implementation CommandListViewController
@@ -17,6 +19,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    self.tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStyleGrouped];
+    self.tableView.delegate = self;
+    [self.view addSubview:self.tableView];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
