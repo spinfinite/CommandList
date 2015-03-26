@@ -9,9 +9,9 @@
 #import "AppDelegate.h"
 #import "CommandListViewController.h"
 
-@interface AppDelegate ()
-
-@end
+//@interface AppDelegate ()
+//
+//@end
 
 @implementation AppDelegate
 
@@ -24,6 +24,8 @@
     
     CommandListViewController *viewController = [CommandListViewController new];
     UINavigationController *navigationController = [[UINavigationController alloc]initWithRootViewController:viewController];
+    
+    self.window.rootViewController = navigationController;
     
     [self.window makeKeyAndVisible];
     

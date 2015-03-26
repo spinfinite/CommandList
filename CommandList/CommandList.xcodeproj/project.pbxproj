@@ -15,6 +15,11 @@
 		E3BCEB7C1ABA0B6100E4A58D /* CommandListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E3BCEB7B1ABA0B6100E4A58D /* CommandListTests.m */; };
 		E3BCEB871ABA0C6600E4A58D /* CommandListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3BCEB861ABA0C6600E4A58D /* CommandListViewController.m */; };
 		E3BCEB8A1ABA1FD000E4A58D /* CLCommands.m in Sources */ = {isa = PBXBuildFile; fileRef = E3BCEB891ABA1FD000E4A58D /* CLCommands.m */; };
+		E3BCEB8D1ABA9D3B00E4A58D /* CLTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E3BCEB8C1ABA9D3B00E4A58D /* CLTableViewDataSource.m */; };
+		E3BCEB901ABAA83300E4A58D /* CLDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3BCEB8F1ABAA83200E4A58D /* CLDetailViewController.m */; };
+		E3BCEB921ABB439600E4A58D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3BCEB911ABB439600E4A58D /* Foundation.framework */; };
+		E3BCEB941ABB43A400E4A58D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3BCEB931ABB43A400E4A58D /* CoreGraphics.framework */; };
+		E3BCEB961ABB43B000E4A58D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3BCEB951ABB43B000E4A58D /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +48,13 @@
 		E3BCEB861ABA0C6600E4A58D /* CommandListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommandListViewController.m; sourceTree = SOURCE_ROOT; };
 		E3BCEB881ABA1FD000E4A58D /* CLCommands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLCommands.h; sourceTree = "<group>"; };
 		E3BCEB891ABA1FD000E4A58D /* CLCommands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLCommands.m; sourceTree = "<group>"; };
+		E3BCEB8B1ABA9D3B00E4A58D /* CLTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLTableViewDataSource.h; sourceTree = "<group>"; };
+		E3BCEB8C1ABA9D3B00E4A58D /* CLTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLTableViewDataSource.m; sourceTree = "<group>"; };
+		E3BCEB8E1ABAA83200E4A58D /* CLDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLDetailViewController.h; sourceTree = "<group>"; };
+		E3BCEB8F1ABAA83200E4A58D /* CLDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLDetailViewController.m; sourceTree = "<group>"; };
+		E3BCEB911ABB439600E4A58D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E3BCEB931ABB43A400E4A58D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E3BCEB951ABB43B000E4A58D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +62,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3BCEB961ABB43B000E4A58D /* UIKit.framework in Frameworks */,
+				E3BCEB941ABB43A400E4A58D /* CoreGraphics.framework in Frameworks */,
+				E3BCEB921ABB439600E4A58D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +81,9 @@
 		E3BCEB531ABA0B6100E4A58D = {
 			isa = PBXGroup;
 			children = (
+				E3BCEB951ABB43B000E4A58D /* UIKit.framework */,
+				E3BCEB931ABB43A400E4A58D /* CoreGraphics.framework */,
+				E3BCEB911ABB439600E4A58D /* Foundation.framework */,
 				E3BCEB5E1ABA0B6100E4A58D /* CommandList */,
 				E3BCEB781ABA0B6100E4A58D /* CommandListTests */,
 				E3BCEB5D1ABA0B6100E4A58D /* Products */,
@@ -88,6 +106,10 @@
 				E3BCEB641ABA0B6100E4A58D /* AppDelegate.m */,
 				E3BCEB851ABA0C6600E4A58D /* CommandListViewController.h */,
 				E3BCEB861ABA0C6600E4A58D /* CommandListViewController.m */,
+				E3BCEB8B1ABA9D3B00E4A58D /* CLTableViewDataSource.h */,
+				E3BCEB8C1ABA9D3B00E4A58D /* CLTableViewDataSource.m */,
+				E3BCEB8E1ABAA83200E4A58D /* CLDetailViewController.h */,
+				E3BCEB8F1ABAA83200E4A58D /* CLDetailViewController.m */,
 				E3BCEB881ABA1FD000E4A58D /* CLCommands.h */,
 				E3BCEB891ABA1FD000E4A58D /* CLCommands.m */,
 				E3BCEB691ABA0B6100E4A58D /* Main.storyboard */,
@@ -225,8 +247,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3BCEB8A1ABA1FD000E4A58D /* CLCommands.m in Sources */,
+				E3BCEB8D1ABA9D3B00E4A58D /* CLTableViewDataSource.m in Sources */,
 				E3BCEB871ABA0C6600E4A58D /* CommandListViewController.m in Sources */,
 				E3BCEB651ABA0B6100E4A58D /* AppDelegate.m in Sources */,
+				E3BCEB901ABAA83300E4A58D /* CLDetailViewController.m in Sources */,
 				E3BCEB621ABA0B6100E4A58D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
