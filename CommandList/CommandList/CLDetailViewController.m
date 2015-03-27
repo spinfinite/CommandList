@@ -97,9 +97,9 @@ static CGFloat margin = 15;
     top += 20 + margin;
     
     
-    for (int i = 0; i < [[CLCommands descriptionAtIndex:self.commandIndex] count]; i++) {
+    for (int i = 0; i < [[CLCommands howToAtIndex:self.commandIndex] count]; i++) {
         
-        CGFloat height = [self heightForDirections:[CLCommands descriptionAtIndex:self.commandIndex][i]];
+        CGFloat height = [self heightForDirections:[CLCommands howToAtIndex:self.commandIndex][i]];
         
         UILabel *count = [[UILabel alloc] initWithFrame:CGRectMake(margin, top, 30, 20)];
         count.font = [UIFont boldSystemFontOfSize:17];
@@ -108,7 +108,7 @@ static CGFloat margin = 15;
         
         UILabel *direction = [[UILabel alloc] initWithFrame:CGRectMake(margin + 30, top, (self.view.frame.size.width - 2 * margin - 40), height)];
         direction.numberOfLines = 0;
-        direction.text = [CLCommands descriptionAtIndex:self.commandIndex][i];
+        direction.text = [CLCommands howToAtIndex:self.commandIndex][i];
         
         [scrollView addSubview:direction];
         
